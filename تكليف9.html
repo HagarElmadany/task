@@ -1,0 +1,33 @@
+<!--
+ما هو العنصر المناسب لوضعه داخل النموذج لإرسال البيانات عند الضغط عليه ؟
+input type="submit"
+ما هو العنصر المناسب ليكون عنوان للصفحة كاملة؟
+H1
+ما هو العنصر المناسب ليكون عنوان لقسم داخل الصفحة؟
+H2
+ما هو العنصر المناسب ليحتوي على فقرة نصية؟
+<p>
+كيف تحدد لغة المحتوى الخاص بصفحتك. يمكنك كتابة العنصر الكامل مع ال Attributes الخاصة بتحديد اللغة
+
+<html lang="en">
+في عالم ال Accessibility هل الأفضل أن أكتب 10 – 20 أم 10 To 20
+10 to 20
+إذا كان لديك عنصر Div وتريد الوصول إليه عن الطريق الضغط على ال Tab Button ماذا سوف تفعل في العنصر ؟
+tabindex="0"
+ماذا تعني كلمة ARIA
+accessible rich internet application
+-->
+<!DOCTYPE>
+<html>
+    <head></head>
+    <body>
+        <div class="choose-skill" role="checkbox" tabindex="0">
+            <div class="skill" role="checkbox" tabindex="0" aria-labelledby="skill one">Python</div>
+            <label for="skill one">Skill One</label>
+            <div class="skill"role="checkbox" tabindex="0" aria-labelledby="skill two">PHP</div>
+            <label for="skill two">Skill Two</label>
+            <div class="skill"role="checkbox" tabindex="0" aria-labelledby="skill three">JavaScript</div>
+            <label for="skill three">Skill Three</label>
+          </div>
+    </body>
+</html>
